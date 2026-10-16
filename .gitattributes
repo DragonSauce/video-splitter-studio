@@ -1,0 +1,22 @@
+# 统一换行：源码入库用 LF，Windows 上检出仍保持可用
+* text=auto eol=lf
+
+# 明确标记为二进制，避免 Git 试图规范化它们
+*.ico  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.cer  binary
+*.zip  binary
+*.mp4  binary
+*.exe  binary
+*.dll  binary
+*.pyd  binary
+
+# 文档与脚本按文本处理
+*.md   text
+*.py   text
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+*.txt  text
+*.json text

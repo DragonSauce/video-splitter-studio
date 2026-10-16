@@ -1,0 +1,8 @@
+# The private key must never be committed: anyone holding it can forge
+# signatures that this project's users have been told to trust.
+*.pfx
+*.pvk
+
+# The public certificate is safe to share and is what other machines need in
+# order to trust the signature, so it is not ignored:
+#   *.cer
